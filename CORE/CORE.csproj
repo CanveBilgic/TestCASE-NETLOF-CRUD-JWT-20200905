@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200905123810_FirstMigrationForUsers.cs" />
+    <Compile Remove="Migrations\20200905123810_FirstMigrationForUsers.Designer.cs" />
+    <Compile Remove="Migrations\20200905124012_FirstMigrationForUsers2.cs" />
+    <Compile Remove="Migrations\20200905124012_FirstMigrationForUsers2.Designer.cs" />
+    <Compile Remove="Migrations\20200905130015_UserStatus.cs" />
+    <Compile Remove="Migrations\20200905130015_UserStatus.Designer.cs" />
+    <Compile Remove="Migrations\20200905192055_userroles.cs" />
+    <Compile Remove="Migrations\20200905192055_userroles.Designer.cs" />
+    <Compile Remove="Migrations\20200905192626_userroles2.cs" />
+    <Compile Remove="Migrations\20200905192626_userroles2.Designer.cs" />
+    <Compile Remove="Migrations\20200905192801_userroles3.cs" />
+    <Compile Remove="Migrations\20200905192801_userroles3.Designer.cs" />
+    <Compile Remove="Migrations\20200905193134_userroles4.cs" />
+    <Compile Remove="Migrations\20200905193134_userroles4.Designer.cs" />
+    <Compile Remove="Migrations\20200905193451_userroles5.cs" />
+    <Compile Remove="Migrations\20200905193451_userroles5.Designer.cs" />
+    <Compile Remove="Migrations\20200906105648_maintenances.cs" />
+    <Compile Remove="Migrations\20200906105648_maintenances.Designer.cs" />
+    <Compile Remove="Migrations\20200906113311_maintenances3.cs" />
+    <Compile Remove="Migrations\20200906113311_maintenances3.Designer.cs" />
+    <Compile Remove="Migrations\20200906115352_maintenances4.cs" />
+    <Compile Remove="Migrations\20200906115352_maintenances4.Designer.cs" />
+    <Compile Remove="Migrations\20200906120102_maintenances6.cs" />
+    <Compile Remove="Migrations\20200906120102_maintenances6.Designer.cs" />
+    <Compile Remove="Migrations\20200906141629_maintenances7.cs" />
+    <Compile Remove="Migrations\20200906141629_maintenances7.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.7" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
